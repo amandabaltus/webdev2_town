@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<meta charset= "utf-8">
+	<title>Ashbourne</title>
+<style>
+	@import "css/contact.css";
+</style>
+</head>
+
+<body>
+	<a href="home.html"><img src="images/logo.jpg" width=390 length=200 align=left alt="image of logo"></a>
+	<br>
+	<nav>
+		<ul>
+			<li><a class="active" href= "home.html">Home</a></li> |
+			<li><a href= "about.html">About</a></li>
+			|
+			<div class="dropdown">
+					<li><button class="dropbutton"><a href= "activities.html">Things To Do</a></button></li> |
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="shopping.html">Shopping</a></li>
+						<li><a href="fun.html">Fun</a></li>
+						<li><a href="eat.html">Eat</a></li>
+						<li><a href="drinks.html">Drinks</a></li>
+					</ul>
+				</div>
+			</div>
+				<li><a href= "contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</body>
+<img src="images/ashbourne_blurred.jpg" width=1350 height=580 alt="picture of ashbourne">
+<main>
+	<div class="contact_us">
+		<h1>Contact Us</h1>
+		<h3>Thank you for your interest in VisitAshbourne.If you have any further questions about Ashbourne, don't hestiate to contact us.</h3>
+	</div>
+	<div class="form">
+		<form action="/contact_page.php">
+			<input type="text" name="name" value="Name" maxlength="30" size="30" required>
+			<input type="email" name="email" value="Email" maxlength="60" size="30" required>
+			<textarea name="entry" rows="10" cols="50">Write your comment here...</textarea>
+			<input type="submit" name="submit" value="Submit" size="30">
+		</form>
+	</div>
+</main>
+</html>
